@@ -1,0 +1,13 @@
+```sql
+-- Recipes table
+CREATE TABLE recipes (
+    name TEXT,
+    ingredients TEXT,
+    dietary_labels TEXT,
+    preferences TEXT
+);
+
+-- Preferences table (optional for storing user preferences)
+CREATE TABLE IF NOT EXISTS preferences (
+    preference TEXT PRIMARY KEY
+);

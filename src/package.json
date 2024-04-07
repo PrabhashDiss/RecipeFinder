@@ -1,0 +1,12 @@
+{
+  "name": "recipe-finder",
+  "version": "1.0.0",
+  "description": "A web application for discovering new recipes.",
+  "main": "frontend/app.js",
+  "scripts": {
+    "start": "webpack serve frontend"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
